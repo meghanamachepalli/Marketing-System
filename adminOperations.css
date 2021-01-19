@@ -1,0 +1,42 @@
+.btn {
+ width: 60%;
+  padding: 8px;
+  border: none;
+  border-radius: 7px;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #03fc30;
+  cursor: pointer;
+  outline: none;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #0356fc;
+ 
+  background-size:120px,140px;
+}
+#main-holder {
+  width: 50%;
+  height: 80%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: gray;
+
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 2px;
+}
+
+/* On mouse-over */
+.btn:hover {background: #fc03d7;}
+
+.add {color: gray;}
+.view {color: gray;}
+.update {color: gray;}
+.delete {color: gray;}
